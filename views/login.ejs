@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Login Form</title>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <form action="/admin/AdminLoginData" method="post"></form>
+        <div class="container">
+            <div>
+                <form>
+                    <center>
+                        <h1>USER LOGIN</h1>
+                    </center>
+
+                    <div class="input">
+                        <input type="email" name="email" id="email" required
+                            title="Please enter your email here" />
+                        <label for="email">Email</label>
+                    </div>
+
+                    <div class="input">
+                        <input type="password" name="password" id="password" required
+                            title="Please enter your Password here" />
+                        <label for="password">Password</label>
+                    </div>
+
+                    <input type="submit" value="Login" class="login-btn" />
+                    <a href="#">Forgot Password?</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
